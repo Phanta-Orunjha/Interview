@@ -1,5 +1,3 @@
-
-
 header {
   display: flex;
   align-items: center;
@@ -208,7 +206,7 @@ nav ul li ul li > a::after {
 .column p::before {
   content: "";
   position: absolute;
-  left: -8px; /* Adjust the distance of the line from the text */
+  left: -8px; 
   top: 0;
   height: 100%;
   width: 6px;
@@ -266,7 +264,7 @@ button.book:hover {
 .testimonial-heading {
   font-size: 24px;
   margin-bottom: 50px;
-  color: #000000; /* Black color for "DON’T TAKE OUR WORD FOR IT" */
+  color: #000000; 
 }
 
 .testimonial-subheading {
@@ -310,7 +308,7 @@ button.book:hover {
 .testimonial-text {
   margin-top: 10px;
   font-size: 16px;
-  color: #000000; /* Black color for the paragraph text */
+  color: #000000; 
 }
 .wrapper {
   background-color: #ffffff;
@@ -528,7 +526,7 @@ button#prev {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px; /* Adjust the spacing between headings and columns */
+  margin-top: 20px; 
 }
 
 .columnprosess {
@@ -680,11 +678,11 @@ button#prev {
 
 .form-group {
   flex-basis: 48%;
-  margin-right: 30px; /* Add right margin to create spacing */
+  margin-right: 30px; 
 }
 
 .form-group:last-child {
-  margin-right: 0; /* Remove right margin for the last item in each row */
+  margin-right: 0; 
 }
 
 label {
@@ -724,8 +722,8 @@ button[type="submit"]:hover {
 }
 
 textarea {
-  height: 150px; /* Adjust the height to make the message block bigger */
-  resize: vertical; /* Allow vertical resizing */
+  height: 150px;
+  resize: vertical; 
 }
 footer {
   background-color: grey;
